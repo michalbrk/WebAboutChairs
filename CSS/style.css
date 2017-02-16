@@ -93,9 +93,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin-left: 20px;
-    margin-top: 75px;
-    margin-right: 40px;
+    margin: 75px 40px 0 20px;
     float: left;
 }
 
@@ -103,8 +101,7 @@ header {
     border: 2px solid yellow;
     width: 520px;
     height: 485px;
-    margin-left: 5px;
-    margin-right: 89px;
+    margin: 0 94px 0 0;
     float: left;
 }
 
@@ -114,6 +111,7 @@ header {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 10px solid black;
+    margin-left: 377px;
 }
 
 .blackRoll {
@@ -123,10 +121,28 @@ header {
     font-size: 14px;
     color: white;
     background-color: #030807;
+    margin-left: 330px;
+    padding-left: 10px;
 }
 
-.text {
+.textArea {
     border: 2px solid blue;
+}
+
+.mainMission {
+    border: 2px dotted black;
+}
+
+.blackLetters {
+    float: left;
+}
+
+.blueLetters {
+    float: left;
+}
+
+.descriptionOfMission {
+    border: 2px dotted red;    
 }
 
 .bigButton {
