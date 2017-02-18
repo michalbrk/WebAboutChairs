@@ -203,14 +203,18 @@ header {
     height: 70px;
     background-color: hsla(0, 0%, 100%, .50);
     margin-top: 160px;
+    padding-left: 10px;
+    padding-top: 15px;
 }
 
 .imageText {
     border-bottom: 7px solid #30C6AF;
     width: 145px;
-    margin-left: 7px;
-    margin-top: 15px;
 }
+
+/*W momencie gdy określę w elemencie blokowym tylko jeden z czterech możliwych elementów border - opcja margin dla tego kierunku (tutaj wertykalnie) przestaje działać... Wyjściem jest określenie paddingów dla elementu blokowego, który jest nadrzędny*/
+
+/*Na projekcie jest omyłka, gdyż pogrubiony border-bottom jest określony jako klasa a nie identyfikator. Przez to na obu obrazkach ma taką samą długość, choć tekst na pierwszym obrazku jest krótszy, co powinno implikować krótszą długość border-bottom*/
 
 .galleryText {
     border: 2px solid #F1F1F1;
