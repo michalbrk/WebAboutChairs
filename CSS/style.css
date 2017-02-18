@@ -184,6 +184,9 @@ header {
     border: 2px solid blue;
     width: 340px;
     height: 250px;
+    background-image: url(../images/box1_img.jpg);
+    background-size: cover;
+    margin-left: 28px;
     float: left;
 }
 
@@ -191,13 +194,24 @@ header {
     border: 2px solid yellow;
     width: 340px;
     height: 250px;
+    background-image: url(../images/box2_img.jpg);
+    background-size: cover;
+    margin-left: 30px;
     float: left;
+}
+
+.paleLine {
+    border: 2px dotted green;
+    height: 70px;
+    background-color: hsla(0, 0%, 100%, .50);
+    margin-top: 160px;
 }
 
 .galleryText {
     border: 2px solid green;
     width: 340px;
     height: 250px;
+    margin-left: 30px;
     float: left;
 }
 
