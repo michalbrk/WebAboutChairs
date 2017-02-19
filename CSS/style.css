@@ -264,7 +264,23 @@ header {
     border-radius: 2px;
     width: 347px;
     height: 500px;
+    background-color: #F9F9F9;
     float: left;
+}
+
+.biggerCircle {
+    border: 2px solid #C7CDCF;
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    background-color: #FDFDFD;
+}
+
+.smallerCircle {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: #C7CDCF;
 }
 
 .panelStandard {
@@ -272,6 +288,7 @@ header {
     border-radius: 2px;
     width: 347px;
     height: 500px;
+    background-color: #30C6AF;
     margin-left: 43px;
     float: left;
 }
@@ -281,6 +298,7 @@ header {
     border-radius: 2px;
     width: 347px;
     height: 500px;
+    background-color: #F9F9F9;
     margin-left: 43px;
     float: left;
 }
