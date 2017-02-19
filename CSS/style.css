@@ -180,22 +180,21 @@ header {
 }
 
 .flowersImage {
-    width: 340px;
+    width: 350px;
     height: 250px;
     background-image: url(../images/box1_img.jpg);
     background-size: cover;
-    margin-left: 28px;
     margin-top: 20px;
     float: left;
 }
 
 .babyImage {
-    width: 340px;
+    width: 350px;
     height: 250px;
     background-image: url(../images/box2_img.jpg);
     background-size: cover;
-    margin-left: 30px;
     margin-top: 20px;
+    margin-left: 40px;
     float: left;
 }
 
@@ -219,10 +218,10 @@ header {
 .galleryText {
     border: 2px solid #F1F1F1;
     border-radius: 1px;
-    width: 340px;
+    width: 350px;
     height: 280px;
-    margin-left: 30px;
     margin-top: 20px;
+    margin-left: 40px;
     float: left;
 }
 
@@ -240,12 +239,50 @@ header {
     margin-right: 20px;
 }
 
+
 /*Sekcja z cennikiem*/
 .prizeList {
     width: 100%;
     background-color: #F1F1F1;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.sectionHeading {
+    border-bottom: 7px solid #30C6AF;
+    width: 330px;
+    margin-top: 30px;
+}
+
+.prizePanels {
+    border: 2px solid red;
+    margin-top: 80px;
+}
+
+.panelBasic {
+    border: 2px solid #C7CDCF;
+    border-radius: 2px;
+    width: 347px;
+    height: 500px;
+    float: left;
+}
+
+.panelStandard {
+    border: 2px solid #30C6AF;
+    border-radius: 2px;
+    width: 347px;
+    height: 500px;
+    margin-left: 43px;
+    float: left;
+}
+
+.panelAdvance {
+    border: 2px solid #C7CDCF;
+    border-radius: 2px;
+    width: 347px;
+    height: 500px;
+    margin-left: 43px;
+    float: left;
 }
 
 
