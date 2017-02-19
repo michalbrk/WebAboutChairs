@@ -271,16 +271,56 @@ header {
 .biggerCircle {
     border: 2px solid #C7CDCF;
     border-radius: 50px;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     background-color: #FDFDFD;
+    position: relative;
+    left: 41%;
+    top: -9%;
+    z-index: 1;
 }
 
 .smallerCircle {
     border-radius: 50px;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     background-color: #C7CDCF;
+    position: absolute;
+    top: 23%;
+    left: 22%;
+}
+
+.prizeHeading {
+    border: 2px dotted red;
+    font-size: 23px;
+    color: #30C6AF;
+    text-align: center;
+    position: relative;
+}
+
+.prizeCircle {
+    border: 2px solid #C7CDCF;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: #FDFDFD;
+    position: relative;
+}
+
+.biggerTextInCircle {
+    position: absolute;
+}
+
+.smallerTextInCircle {
+    position: absolute;
+}
+
+.darkGreyBar {
+    height: 50px;
+    background-color: #E3E3E3;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
 }
 
 .panelStandard {
