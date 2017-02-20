@@ -243,6 +243,7 @@ header {
 /*Sekcja z cennikiem*/
 .prizeList {
     width: 100%;
+    height: 700px;
     background-color: #F1F1F1;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -312,13 +313,21 @@ header {
 
 .biggerTextInCircle {
     position: absolute;
-    left: 30%;
+    left: 20%;
     top: 25%;
-    font-size: 30px;
+    font-size: 50px;
+}
+
+.decimalTextInCircle {
+    position: absolute;
+    left: 70%;
+    top: 25%;
 }
 
 .smallerTextInCircle {
     position: absolute;
+    left: 25%;
+    top: 70%;
 }
 
 .darkGreyBar {
@@ -361,6 +370,15 @@ header {
     background-color: #30C6AF;
     margin-left: 43px;
     float: left;
+}
+
+.whiteBar {
+    border: 2px dotted red;
+    height: 40px;
+    background-color: #FDFDFD;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 8px;
 }
 
 .panelAdvance {
