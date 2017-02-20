@@ -296,6 +296,7 @@ header {
     color: #30C6AF;
     text-align: center;
     position: relative;
+    top: -40px;
 }
 
 .prizeCircle {
@@ -305,10 +306,15 @@ header {
     height: 150px;
     background-color: #FDFDFD;
     position: relative;
+    left: 28%;
+    top: -4%;
 }
 
 .biggerTextInCircle {
     position: absolute;
+    left: 30%;
+    top: 25%;
+    font-size: 30px;
 }
 
 .smallerTextInCircle {
@@ -316,11 +322,35 @@ header {
 }
 
 .darkGreyBar {
-    height: 50px;
+    height: 40px;
     background-color: #E3E3E3;
     font-size: 20px;
     text-align: center;
+    padding-top: 8px;
     position: relative;
+}
+
+.brighterGreyBar {
+    border: 2px dotted green;
+    height: 40px;
+    background-color: #F0F0F0;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 8px;
+    position: relative;
+}
+
+.prizeButton {
+    border: 2px dotted red;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    background-color: #30C6AF;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 125px;
+    margin-left: 110px;
 }
 
 .panelStandard {
