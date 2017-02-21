@@ -509,6 +509,76 @@ header {
     padding-bottom: 5px;
 }
 
+.formPanel {
+    border: 2px solid blue;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.inputsAndTextarea {
+    border: 2px dotted pink;
+    width: 605px;
+    float: left;
+}
+
+input {
+    border: 1px solid #30C6AF;
+    border-radius: 2px;
+    display: block;
+    width: 600px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    border: 1px solid #30C6AF;
+    border-radius: 2px;
+    display: block;
+    width: 600px;
+    height: 200px;
+}
+
+.imageAndText {
+    border: 2px dotted green;
+    display: block;
+    margin-left: 100px;
+    float: left;
+}
+
+.redChairImage {
+    border: 2px dotted yellow;
+    width: 250px;
+    height: 180px;
+    background-image: url(../images/red_chair.png);
+    background-size: cover;
+    background-position: top -30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.tickAndImage {
+    border: 2px dotted brown;
+    
+}
+
+.tickImage {
+    border: 2px dotted red;
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/form_ok.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.tickText {
+    border: 2px dotted black;
+    width: 280px;
+    margin-left: 20px;
+    float: left;
+}
+
 
 /*Sekcja z mediami społecznościowymi i prawami autorskimi*/
 footer {
