@@ -527,15 +527,19 @@ input {
     display: block;
     width: 600px;
     height: 60px;
+    font-size: 30px;
+    padding-left: 10px;
     margin-bottom: 20px;
 }
 
-textarea {
+.textArea {
     border: 1px solid #30C6AF;
     border-radius: 2px;
     display: block;
     width: 600px;
     height: 200px;
+    text-align: left;
+    padding-left: 10px;
 }
 
 .imageAndText {
@@ -559,6 +563,7 @@ textarea {
 
 .tickAndImage {
     border: 2px dotted brown;
+    margin-top: 20px;
     
 }
 
@@ -579,6 +584,18 @@ textarea {
     float: left;
 }
 
+.largeButton {
+    border: 2px dotted red;
+    border-radius: 5px;
+    width: 340px;
+    height: 60px;
+    background-color: #30C6AF;
+    text-align: center;
+    font-size: 30px;
+    color: #FDFDFD;
+    margin-top: 40px;
+    float: left;
+}
 
 /*Sekcja z mediami społecznościowymi i prawami autorskimi*/
 footer {
