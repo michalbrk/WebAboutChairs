@@ -256,7 +256,6 @@ header {
 }
 
 .prizePanels {
-    border: 2px solid red;
     margin-top: 80px;
 }
 
@@ -292,7 +291,6 @@ header {
 }
 
 .prizeHeading {
-    border: 2px dotted red;
     font-size: 23px;
     color: #30C6AF;
     text-align: center;
@@ -313,14 +311,14 @@ header {
 
 .biggerTextInCircle {
     position: absolute;
-    left: 20%;
+    left: 29%;
     top: 25%;
     font-size: 50px;
 }
 
 .decimalTextInCircle {
     position: absolute;
-    left: 70%;
+    left: 68%;
     top: 25%;
 }
 
@@ -340,7 +338,6 @@ header {
 }
 
 .brighterGreyBar {
-    border: 2px dotted green;
     height: 40px;
     background-color: #F0F0F0;
     font-size: 20px;
@@ -350,14 +347,13 @@ header {
 }
 
 .prizeButton {
-    border: 2px dotted red;
     border-radius: 5px;
     width: 120px;
     height: 30px;
     background-color: #30C6AF;
     font-size: 14px;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 7px;
     margin-top: 125px;
     margin-left: 110px;
 }
@@ -394,7 +390,6 @@ header {
 }
 
 #prizeHeading {
-    border: 2px dotted red;
     font-size: 23px;
     color: #FDFDFD;
     text-align: center;
@@ -434,7 +429,6 @@ header {
 }
 
 .whiteBar {
-    border: 2px dotted red;
     height: 40px;
     background-color: #FDFDFD;
     font-size: 20px;
@@ -443,7 +437,6 @@ header {
 }
 
 #prizeButton {
-    border: 2px dotted red;
     border-radius: 5px;
     width: 120px;
     height: 30px;
@@ -451,8 +444,8 @@ header {
     font-size: 14px;
     color: #30C6AF;
     text-align: center;
-    padding-top: 5px;
-    margin-top: 125px;
+    padding-top: 7px;
+    margin-top: 87px;
     margin-left: 110px;
 }
 
@@ -466,6 +459,47 @@ header {
     float: left;
 }
 
+#thirdPrizeCircle {
+    border: 2px solid #C7CDCF;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: #FDFDFD;
+    position: relative;
+    left: 28%;
+    top: -4%;
+}
+
+#thirdBiggerTextInCircle {
+    position: absolute;
+    left: 16%;
+    top: 25%;
+    font-size: 50px;
+}
+
+#thirdDecimalTextInCircle {
+    position: absolute;
+    left: 65%;
+    top: 25%;
+}
+
+#thirdSmallerTextInCircle {
+    position: absolute;
+    left: 25%;
+    top: 70%;
+}
+
+#thirdPrizeButton {
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    background-color: #30C6AF;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 7px;
+    margin-top: 48px;
+    margin-left: 110px;
+}
 
 /*Sekcja z formularzem*/
 .formField {
