@@ -372,6 +372,67 @@ header {
     float: left;
 }
 
+#biggerCircle {
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    background-color: #30C6AF;
+    position: relative;
+    left: 40%;
+    top: -9%;
+    z-index: 1;
+}
+
+#smallerCircle {
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    background-color: #FDFDFD;
+    position: absolute;
+    top: 23%;
+    left: 25%;
+}
+
+#prizeHeading {
+    border: 2px dotted red;
+    font-size: 23px;
+    color: #FDFDFD;
+    text-align: center;
+    position: relative;
+    top: -40px;
+}
+
+#prizeCircle {
+    border: 2px solid #30C6AF;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: #FDFDFD;
+    color: #30C6AF;
+    position: relative;
+    left: 28%;
+    top: -4%;
+}
+
+#biggerTextInCircle {
+    position: absolute;
+    left: 28%;
+    top: 25%;
+    font-size: 50px;
+}
+
+#decimalTextInCircle {
+    position: absolute;
+    left: 66%;
+    top: 25%;
+}
+
+#smallerTextInCircle {
+    position: absolute;
+    left: 25%;
+    top: 70%;
+}
+
 .whiteBar {
     border: 2px dotted red;
     height: 40px;
@@ -379,6 +440,20 @@ header {
     font-size: 20px;
     text-align: center;
     padding-top: 8px;
+}
+
+#prizeButton {
+    border: 2px dotted red;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    background-color: #FDFDFD;
+    font-size: 14px;
+    color: #30C6AF;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 125px;
+    margin-left: 110px;
 }
 
 .panelAdvance {
