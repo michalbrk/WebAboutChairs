@@ -120,12 +120,13 @@ header {
     width: 120px;
     height: 120px;
     font-size: 14px;
-    color: white;
-    text-decoration: none;
+    color: #FDFDFD;
     background-color: #030807;
     margin-left: 330px;
     padding-left: 10px;
 }
+
+/*Po dodaniu elementu <a>, kolor czcionki zmienił się na niebieski i dodanie stylu text-decoration: none; nie dało rezultatu*/
 
 .firstTextArea {
     text-align: center;
@@ -366,6 +367,7 @@ header {
     font-size: 14px;
     text-align: center;
     text-decoration: none;
+    color: #FDFDFD;
     padding-top: 7px;
     margin-top: 125px;
     margin-left: 110px;
@@ -511,6 +513,7 @@ header {
     height: 30px;
     background-color: #30C6AF;
     font-size: 14px;
+    color: #FDFDFD;
     text-align: center;
     padding-top: 7px;
     margin-top: 48px;
