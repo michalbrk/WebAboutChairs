@@ -17,8 +17,11 @@ html {
     font-family: 'ralewayregular', sans-serif;
 }
 
+a:hover {
+    background-color: yellow;
+}
+
 .widthContainer{
-    border: 3px dotted red;
     width: 1150px;
     margin: 0 auto;
     padding-left: 5px;
