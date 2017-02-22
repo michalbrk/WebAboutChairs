@@ -501,6 +501,7 @@ header {
     margin-left: 110px;
 }
 
+
 /*Sekcja z formularzem*/
 .formField {
     width: 100%;
@@ -510,13 +511,11 @@ header {
 }
 
 .formPanel {
-    border: 2px solid blue;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
 .inputsAndTextarea {
-    border: 2px dotted pink;
     width: 605px;
     float: left;
 }
@@ -543,49 +542,47 @@ input {
 }
 
 .imageAndText {
-    border: 2px dotted green;
     display: block;
     margin-left: 100px;
     float: left;
 }
 
 .redChairImage {
-    border: 2px dotted yellow;
     width: 250px;
     height: 180px;
     background-image: url(../images/red_chair.png);
     background-size: cover;
-    background-position: top -30px;
+    background-position: 0 -20px;
     margin-left: 20px;
     margin-bottom: 20px;
     float: left;
 }
 
 .tickAndImage {
-    border: 2px dotted brown;
     margin-top: 20px;
     
 }
 
 .tickImage {
-    border: 2px dotted red;
-    width: 40px;
-    height: 40px;
+    border: 1px solid #30C6AF;
+    border-radius: 2px;
+    width: 45px;
+    height: 45px;
     background-image: url(../images/form_ok.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: -5px 1px;
     float: left;
 }
 
 .tickText {
-    border: 2px dotted black;
     width: 280px;
+    padding-top: 4px;
     margin-left: 20px;
     float: left;
 }
 
 .largeButton {
-    border: 2px dotted red;
     border-radius: 5px;
     width: 340px;
     height: 60px;
@@ -596,6 +593,7 @@ input {
     margin-top: 40px;
     float: left;
 }
+
 
 /*Sekcja z mediami społecznościowymi i prawami autorskimi*/
 footer {
