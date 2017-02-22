@@ -6,7 +6,9 @@
 @font-face {
     font-family: 'ralewayregular';
     src: url('../Fonts/raleway-bold.woff2') format('woff2'),
-        url('../Fonts/raleway-bold.woff2') format('woff2');
+        url('../Fonts/raleway-bold.woff2') format('woff2'),
+        url('../Fonts/raleway-regular.woff') format('woff2'),
+        url('../Fonts/raleway-regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -28,6 +30,7 @@ html {
 }
 
 
+
 /*Sekcja z header'em*/
 header {
     width: 100%;
@@ -47,6 +50,7 @@ header {
 }
 
 #blueUpperLogo {
+    font-weight: bold;
     color: 	#30C6AF;
     display: inline-block;
 }
@@ -65,6 +69,7 @@ header {
     text-align: right;
     float: left;
 }
+
 
 
 /*Sekcja ze slider'em*/
@@ -122,7 +127,7 @@ header {
     padding-left: 10px;
 }
 
-.textArea {
+.firstTextArea {
     text-align: center;
 }
 
@@ -170,6 +175,7 @@ header {
     margin-left: 120px;
     margin-top: 40px;
 }
+
 
 
 /*Sekcja z galerią zdjęć*/
@@ -242,6 +248,7 @@ header {
 }
 
 
+
 /*Sekcja z cennikiem*/
 .prizeList {
     width: 100%;
@@ -305,6 +312,7 @@ header {
     border-radius: 50%;
     width: 150px;
     height: 150px;
+    color: #C9C4C4;
     background-color: #FDFDFD;
     position: relative;
     left: 28%;
@@ -334,6 +342,7 @@ header {
     height: 40px;
     background-color: #E3E3E3;
     font-size: 20px;
+    color: #C9C4C4;
     text-align: center;
     padding-top: 8px;
     position: relative;
@@ -343,6 +352,7 @@ header {
     height: 40px;
     background-color: #F0F0F0;
     font-size: 20px;
+    color: rgba(3, 8, 7, .40);
     text-align: center;
     padding-top: 8px;
     position: relative;
@@ -355,6 +365,7 @@ header {
     background-color: #30C6AF;
     font-size: 14px;
     text-align: center;
+    text-decoration: none;
     padding-top: 7px;
     margin-top: 125px;
     margin-left: 110px;
@@ -434,6 +445,7 @@ header {
     height: 40px;
     background-color: #FDFDFD;
     font-size: 20px;
+    color: #756E6E;
     text-align: center;
     padding-top: 8px;
 }
@@ -446,6 +458,7 @@ header {
     font-size: 14px;
     color: #30C6AF;
     text-align: center;
+    text-decoration: none;
     padding-top: 7px;
     margin-top: 87px;
     margin-left: 110px;
@@ -466,6 +479,7 @@ header {
     border-radius: 50%;
     width: 150px;
     height: 150px;
+    color: #C9C4C4;
     background-color: #FDFDFD;
     position: relative;
     left: 28%;
@@ -502,6 +516,7 @@ header {
     margin-top: 48px;
     margin-left: 110px;
 }
+
 
 
 /*Sekcja z formularzem*/
@@ -579,6 +594,7 @@ input {
 
 .tickText {
     width: 280px;
+    color: rgba(3, 8, 7, .40);
     padding-top: 4px;
     margin-left: 20px;
     float: left;
@@ -597,7 +613,8 @@ input {
 }
 
 
-/*Sekcja z mediami społecznościowymi i prawami autorskimi*/
+
+/*Footer - Sekcja z mediami społecznościowymi i prawami autorskimi*/
 footer {
     width: 100%;
     height: 100px;
@@ -607,6 +624,7 @@ footer {
 }
 
 .copyrights {
+    color: rgba(3, 8, 7, .40);
     margin-top: 25px;
     float: left;
 }
@@ -658,6 +676,7 @@ footer {
 .downLogo {
     height: 45px;
     font-size: 20px;
+    color: rgba(3, 8, 7, .40);
     margin-left: 20px;
     float: left;
 }
