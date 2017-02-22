@@ -116,6 +116,7 @@ header {
     height: 120px;
     font-size: 14px;
     color: white;
+    text-decoration: none;
     background-color: #030807;
     margin-left: 330px;
     padding-left: 10px;
@@ -163,6 +164,7 @@ header {
     background-color: #30C6AF;
     font-size: 22px;
     color: white;
+    text-decoration: none;
     text-align: center;
     padding-top: 11px;
     margin-left: 120px;
